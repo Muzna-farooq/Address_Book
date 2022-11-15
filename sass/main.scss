@@ -1,0 +1,171 @@
+//custom variables
+@import './variables';
+@import './fonts';
+@import './mixins';
+
+body{
+    background-color: $primary !important;
+}
+.sections{
+    background-color: $secondary;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+
+}
+.pic_sect{
+    background-color: $secondary;
+    padding: 42px;
+    img{
+        width: 70%;
+        margin: auto;
+        display: block;
+    }  
+}
+.pic_sect1{
+    img{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }  
+}
+.content_sect{
+    background-color: $white;
+    padding: 52px;
+    min-height: 480px;
+    label {
+        display: block;
+    }
+    a{
+        background-color: $primary;
+        border: 1px solid $primary;
+        color: $white;
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 10px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    a.link{
+        background-color: transparent;
+        display: inline;
+        padding: 0px;
+        color: $primary;
+        border: none;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+    }
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+    }
+    label {
+        margin-bottom: 6px;
+    }
+}
+.form_cont{
+    h4{
+        color: $primary;
+    }
+    label{
+        display: block;
+        color: $primary;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 9px;
+        border: 1px solid gray;
+        width: 100%;
+    }
+    input[type="number"] {
+        padding: 5px;
+        border-radius: 9px;
+        border: 1px solid gray;
+        width: 100%;
+    }
+    input[type="submit"] {
+        color: $white;
+        background-color: $primary;
+        border: 1px solid $primary;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: $primary !important;
+}
+button#pills-profile-tab {
+    color: $primary;
+}
+button#pills-contact-tab {
+    color: $primary;
+}
+button#pills-home-tab {
+    color: $primary;
+}
+.srch{
+    input[type="search"] {
+        padding: 5px;
+        border-radius: 9px;
+        border: 1px solid gray;
+    }   
+    h4{
+        color: $primary;
+    } 
+    input[type="submit"] {
+        color: $white;
+        background-color: $primary;
+        border: 1px solid $primary;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+.sections2{
+    background-color: $white !important;
+    box-shadow: 0px 1px 12px 1px rgba(242,233,233,0.75) !important;
+    padding: 25px;
+}
+.header{
+    .navbar-light .navbar-nav .nav-link {
+        color: $black !important;
+    }
+}
+.sec_1 {
+    padding: 85px;
+}
+input[type="submit"] {
+    background-color: $primary;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+}
+.ip_12{
+    gap: 5px;
+}
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+#table td:nth-child(6){
+    display: none;
+}
